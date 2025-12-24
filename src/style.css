@@ -22,6 +22,8 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 @theme {
   --color-earthy-forest-200: #dad7cd;
   --color-earthy-forest-400: #a3b18a;
@@ -36,7 +38,7 @@
     padding: 12px;
     width: 100%;
     height: 100%;
-    text-align: center;    
+    text-align: center;
   }
 
   .navItemBurger{

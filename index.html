@@ -7,35 +7,40 @@
     <title>portofolio</title>
     <link rel="stylesheet" href="/src/style.css">
   </head>
-  <body class="bg-earthy-forest-200">
+  <body class="bg-earthy-forest-200 text-earthy-forest-1000 dark:bg-earthy-forest-1000 dark:text-earthy-forest-200">
+
     <header class="border-b-3 border-b-earthy-forest-600 flex flex-col ">
       <section class="flex flex-row justify-between ">
-        <section id="menu" class="hover:bg-earthy-forest-400 active:bg-earthy-forest-600">
-          <button id="btnMenu" class="max-w-12 md:hidden">
-            <img src="ui/black/menu-black.png" alt="" class="">
+
+        <section id="menu" class="justify-center hover:bg-earthy-forest-400 active:bg-earthy-forest-600">
+          <button id="btnMenu" class="max-w-10 ml-2 mt-2 mr-2 md:hidden">
+            <img src="ui/black/menu-black.png" alt="" id="iconMenu" class="">
           </button>
         </section>
+
         <nav id="navbar" class="hidden md:flex">
-        <ul class="text-lg flex gap-3 md:flex-row">
-          <li class="">
-            <a href="" class="navItem hover:bg-earthy-forest-400 
-            active:bg-earthy-forest-600">Home</a>
-          </li>
-          <li>
-            <a href="" class="navItem hover:bg-earthy-forest-400 
-            active:bg-earthy-forest-600">Projects</a>
-          </li>
-          <li>
-            <a href="" class="navItem hover:bg-earthy-forest-400 
-            active:bg-earthy-forest-600">About</a>
-          </li>
-        </ul>
-      </nav>
-        <section id="setting" class="hover:bg-earthy-forest-400 active:bg-earthy-forest-600">
-          <button class="max-w-12">
-            <img src="ui/black/sun-black.png" alt="" class="">
+          <ul class="text-lg flex gap-3 md:flex-row">
+            <li class="">
+              <a href="" class="navItem hover:bg-earthy-forest-400 
+              active:bg-earthy-forest-600">Home</a>
+            </li>
+            <li>
+              <a href="" class="navItem hover:bg-earthy-forest-400 
+              active:bg-earthy-forest-600">Projects</a>
+            </li>
+            <li>
+              <a href="" class="navItem hover:bg-earthy-forest-400 
+              active:bg-earthy-forest-600">About</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section id="setting" class="justify-center hover:bg-earthy-forest-400 active:bg-earthy-forest-600">
+          <button id="btnTheme" class="max-w-10 ml-2 mt-2 mr-2">
+            <img src="ui/black/sun-black.png" alt="" id="iconTheme" class="">
           </button>
         </section>
+
       </section>
       <section class="md:hidden">
         <nav id="navbarBurger" class="hideMenu">
