@@ -1,0 +1,66 @@
+@import "tailwindcss";
+/* :root {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  --primary-color: #DAD7CD;
+  --secondary-color: #344E41;
+  --accent-color-1: #3A5A40;
+  --accent-color-2: #588157;
+  
+  --color-bg: var(--primary-color);
+  --color-text: var(--secondary-color);
+  --nav-bg-color: var(--accent-color-2);
+  --nav-text-color:var(--primary-color);
+  --nav-border-color:var(--accent-color-1);
+  --button-bg-color: var(--secondary-color);
+  --button-text-color:var(--primary-color);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+@theme {
+  --color-earthy-forest-200: #dad7cd;
+  --color-earthy-forest-400: #a3b18a;
+  --color-earthy-forest-600: #588157;
+  --color-earthy-forest-800: #3a5a40;
+  --color-earthy-forest-1000: #344e41;
+}
+
+@layer utilities {
+  .navItem{
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;    
+  }
+
+  .navItemBurger{
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;    
+  }
+
+  .showMenu {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+  }
+  .hideMenu {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
