@@ -25,11 +25,17 @@
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 @theme {
-  --color-earthy-forest-200: #dad7cd;
-  --color-earthy-forest-400: #a3b18a;
-  --color-earthy-forest-600: #588157;
-  --color-earthy-forest-800: #3a5a40;
-  --color-earthy-forest-1000: #344e41;
+  --color-elegance-palette-white: #FFFFFF;
+  --color-elegance-palette-grey: #E5E5E5;
+  --color-elegance-palette-orange: #FCA311;
+  --color-elegance-palette-navy: #14213D;
+  --color-elegance-palette-black: #000000;
+
+  --color-primary-navy: var(--color-elegance-palette-navy);
+  --color-primary-white: var(--color-elegance-palette-white);
+  --color-secondary-black: var(--color-elegance-palette-black);
+  --color-secondary-grey: var(--color-elegance-palette-grey);
+  --color-accent-orange: var(--color-elegance-palette-orange);
 }
 
 @layer utilities {
@@ -66,3 +72,6 @@
 
 
 
+@media (width < 40rem) {
+  margin-inline: 0;
+}
