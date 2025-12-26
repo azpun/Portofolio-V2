@@ -12,11 +12,13 @@
     <header class=" flex flex-col">
       <section class="flex flex-row justify-between">
 
-        <section id="menu" class="justify-center hover:bg-elegance-palette-orange hover:text-elegance-palette-white md:hidden">
+        <section id="menu" class="justify-center m-1 rounded-lg hover:bg-accent-orange 
+        hover:text-primary-white active:bg-accent-orange md:hidden">
           <button id="btnMenu" class="max-w-10 ml-2 mt-2 mr-2 md:hidden">
             <img src="ui/black/menu-black.png" alt="" id="iconMenu" class="">
           </button>
         </section>
+
         <section id="theName" class="flex items-center">
           <a href="#">
             <span class="text-lg font-bold hover:text-elegance-palette-orange
@@ -29,21 +31,22 @@
         <nav id="navbar" class="hidden md:flex">
           <ul class="text-lg font-semibold flex gap-3 md:flex-row">
             <li class="">
-              <a href="#" class="navItem hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">Home</a>
+              <a href="#1" class="navItem hover:bg-accent-orange 
+              hover:text-primary-white">Home</a>
             </li>
             <li>
-              <a href="#" class="navItem hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">Projects</a>
+              <a href="#2" class="navItem hover:bg-accent-orange 
+              hover:text-primary-white">Projects</a>
             </li>
             <li>
-              <a href="#" class="navItem hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">About</a>
+              <a href="#3" class="navItem hover:bg-accent-orange 
+              hover:text-primary-white">About</a>
             </li>
           </ul>
         </nav>
 
-        <section id="setting" class="justify-center hover:bg-elegance-palette-orange hover:text-elegance-palette-white">
+        <section id="setting" class="justify-center m-1 rounded-lg hover:bg-accent-orange 
+        hover:text-primary-white active:bg-accent-orange">
           <button id="btnTheme" class="max-w-10 ml-2 mt-2 mr-2">
             <img src="ui/black/sun-black.png" alt="" id="iconTheme" class="">
           </button>
@@ -51,34 +54,54 @@
 
       </section>
       <section class="md:hidden">
-        <nav id="navbarBurger" class="hideMenu">
+        <nav id="navbarBurger" class="absolute z-10 hideMenu">
           <ul class="text-lg ">
             <li class="">
-              <a href="#" class="navItemBurger hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">Home</a>
+              <a href="#4" class="navItemBurger bg-primary-white hover:bg-accent-orange active:bg-accent-orange 
+              hover:text-primary-white dark:bg-primary-navy">Home</a>
             </li>
             <li>
-              <a href="#" class="navItemBurger hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">Projects</a>
+              <a href="#5" class="navItemBurger bg-primary-white hover:bg-accent-orange active:bg-accent-orange 
+              hover:text-primary-white dark:bg-primary-navy">Projects</a>
             </li>
             <li>
-              <a href="#" class="navItemBurger hover:bg-elegance-palette-orange 
-              hover:text-elegance-palette-white">About</a>
+              <a href="#6" class="navItemBurger bg-primary-white hover:bg-accent-orange active:bg-accent-orange
+              hover:text-primary-white dark:bg-primary-navy">About</a>
             </li>
           </ul>
         </nav>
       </section>
     </header>
 
-    <main class="">
-      <section id="heroSection">
-        <div id="heroLeft">
-          <h1></h1>
-        </div>
-        <div id="heroRight">
+    <div id="whitespace" class="mt-5"></div>
 
+    <main class="relative">
+      <section id="heroSection" class="flex flex-col gap-10 bg-secondary-grey rounded-lg p-10 m-3 
+      lg:flex-row md:m-0 dark:bg-secondary-black">
+        <div id="heroLeft" class="p-5">
+          <img src="img/pun3.png" alt="" class="rounded-full sm:max-w-lg sm:max-h-lg md:max-w-lg md:max-h-lg">
+        </div>
+        <div id="heroRight" class="flex flex-col gap-5 text-center md:text-start">
+          <div>
+            <h1 class="text-3xl md:">
+              Hii, I'am Punari.
+            </h1>
+            <h2 class="text-xl">
+              Frontend Developer
+            </h2>
+          </div>
+          <div>
+            <a href="#7">
+              <button class="bg-accent-orange rounded-lg p-3.5 active:bg-primary-navy 
+              active:text-primary-white dark:active:bg-primary-white dark:active:text-primary-navy">
+                <span class="font-bold">Get In Touch</span>
+              </button>
+            </a>
+          </div>
         </div>
       </section>
+
+
     </main>
     <footer>
       
